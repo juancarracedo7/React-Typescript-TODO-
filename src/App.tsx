@@ -42,10 +42,18 @@ function App(): JSX.Element {
 
   return (
     <div className="container p-4">
+      
       <div className="row">
+      
         <div className="col-md-6 offset-md-3">
+        
+          <h1 className='row justify-content-center align-items-center'>TODO LIST</h1>
+          
+        
           <div className="card">
+          
             <div className="card-body">
+            
               <form onSubmit={handleSubmit}>
                 <input
                   className="form-control"
